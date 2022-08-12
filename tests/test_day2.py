@@ -1,4 +1,4 @@
-from src.day1 import chop
+from src.day2 import chop
 
 
 def test_chop():
