@@ -49,6 +49,11 @@ requires_python = ">=3.6.8"
 summary = "pyparsing module - Classes and methods to define and execute parsing grammars"
 
 [[package]]
+name = "pysnooper"
+version = "1.1.1"
+summary = "A poor man's debugger for Python."
+
+[[package]]
 name = "pytest"
 version = "7.1.2"
 requires_python = ">=3.7"
@@ -72,7 +77,7 @@ summary = "A lil' TOML parser"
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:31fe9eb25b451aff85778cdfbbeb3e62a5de205e36d66abca1e490fb72e786c8"
+content_hash = "sha256:9e7ee34078a4d4c16f98c7c61a909fab7537728d0bd6faca52c32881552a261b"
 
 [metadata.files]
 "atomicwrites 1.4.1" = [
@@ -105,6 +110,10 @@ content_hash = "sha256:31fe9eb25b451aff85778cdfbbeb3e62a5de205e36d66abca1e490fb7
 "pyparsing 3.0.9" = [
     {url = "https://files.pythonhosted.org/packages/6c/10/a7d0fa5baea8fe7b50f448ab742f26f52b80bfca85ac2be9d35cdd9a3246/pyparsing-3.0.9-py3-none-any.whl", hash = "sha256:5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"},
     {url = "https://files.pythonhosted.org/packages/71/22/207523d16464c40a0310d2d4d8926daffa00ac1f5b1576170a32db749636/pyparsing-3.0.9.tar.gz", hash = "sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb"},
+]
+"pysnooper 1.1.1" = [
+    {url = "https://files.pythonhosted.org/packages/35/f0/f3f36d0a87d4f2e3ceb9ba273cac9ad6fb0924f078e51c94803f10b55dbf/PySnooper-1.1.1-py2.py3-none-any.whl", hash = "sha256:378f13d731a3e04d3d0350e5f295bdd0f1b49fc8a8b8bf2067fe1e5290bd20be"},
+    {url = "https://files.pythonhosted.org/packages/e9/82/3f6d0f73c9fd19bf07953d788e34d1c64c766a03e54625bf9fe98d730822/PySnooper-1.1.1.tar.gz", hash = "sha256:d17dc91cca1593c10230dce45e46b1d3ff0f8910f0c38e941edf6ba1260b3820"},
 ]
 "pytest 7.1.2" = [
     {url = "https://files.pythonhosted.org/packages/4e/1f/34657c6ac56f3c58df650ba41f8ffb2620281ead8e11bcdc7db63cf72a78/pytest-7.1.2.tar.gz", hash = "sha256:a06a0425453864a270bc45e71f783330a7428defb4230fb5e6a731fde06ecd45"},
