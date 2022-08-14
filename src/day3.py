@@ -2,7 +2,6 @@ def _chop(tgt, lst, start, end):
     result = -1
     mid = start + (end - start) // 2
     if tgt == lst[start]:
-        print(result)
         result = start 
     elif mid - start == 0:
         result = -1
